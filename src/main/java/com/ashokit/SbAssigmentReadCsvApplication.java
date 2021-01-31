@@ -10,10 +10,11 @@ import com.ashokit.service.ProductServiceImpl;
 
 @SpringBootApplication
 public class SbAssigmentReadCsvApplication {
-
-
+	  
 	public static void main(String[] args) throws FileNotFoundException {
 		// SpringApplication.run(SbAssigmentReadCsvApplication.class, args);
+		
+		private Map<String,Object> hm = new HashMap<String,Object>();
 
 		ConfigurableApplicationContext ctxt = SpringApplication.run(SbAssigmentReadCsvApplication.class, args);
 		
@@ -31,6 +32,14 @@ public class SbAssigmentReadCsvApplication {
 	
 	public void doProess(){
 		System.out.println("== single person is working on his branch and merging his code to master branch ====");
+		
+	}
+	
+	//--- User anil his working on HIS-301 (feature-301) and now he his merging his code develop branch
+
+	public void loadDataFromCache(){
+		
+		
 		
 	}
 
